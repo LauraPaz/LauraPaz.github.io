@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./about/).
+[Link to another page](./a2/).
 
 [Link to another BOKEH page](./bokeh.html).
 
