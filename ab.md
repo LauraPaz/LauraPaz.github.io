@@ -21,7 +21,9 @@ In the city that attracts people from every corner of the world, you can find an
 
 The Department of Health and Mental Hygiene (DOHMH) of New York maintains and daily updates a dataset with the results of every restaurant inspection it performs in the city of NY. Tens of thousands of entries, contain all there is to know about how clean and safe restaurants are and how much effort they put in taking care of their customers. With the proper analytic approach, this dataset was transformed into a complete overview of the situation of the restaurant scene of the city to help you navigate through it and avoid traps that will make you throw that disgusting piece of pizza in the trash, or even worse, take you to the emergency room!
 
-<p align="center"><iframe src="../static/ab/extra/kevin.gif" height=250 style="border:none;"></iframe><iframe src="../static/ab/extra/michael.gif" height=250 style="border:none;"></iframe></p>
+<p align="center">
+  <img src="../static/ab/extra/michael.gif"/>
+</p>
 
 The first thing you need to know is how the DOHMH grades restaurants after each inspection. This table will give an idea:
 
@@ -39,7 +41,7 @@ But the number of inspections only tells which place has the most restaurants, a
 
 What comes as a surprise is the rate at which these inspections end up in a negative outcome. In general, more than 98% of the total inspections end up finding at least one violation! Terrifying right? Well, in all fairness, a lot of these cases involve minor, and even trivial violations, like "Absence of a "Wash Your Hands" sign in the restroom" or similar. A clearer picture of where the serious violations happen, might come from the rate of inspections that end up in a restaurants closure. The following map gives us this information and even divides the city into neighborhoods:
 
-<iframe src="../static/ab/plots/closures_neighborhood_rate.html" width="100%" height="420" style="border:none;"></iframe>
+<iframe src="../static/ab/plots/closures_neighborhood_rate.html" width="775" height="420" style="border:none;"></iframe>
 
 And, as far as grades go, here is the distributions of grades received by restaurants in each borough:
 
@@ -49,7 +51,7 @@ And, as far as grades go, here is the distributions of grades received by restau
 
 After investigating the spatial distribution of inspections it's time to focus on how inspections progress through time. Here the most important, and admittedly expected, thing, is the total absence of inspections during the peak of the corona-virus pandemic. It is a fact that New York was hit very hard by COVID-19, being the city facing the most difficulties in the USA. Between the middle of March 2020 and July 2021, for the greatest part of which time restaurants were closed, almost no inspections took place, leaving a huge gap in the calendar analysis. This is clearly illustrated in this bar plot:
 
-![Occurrences per month](../static/ab/plots/occurrences_per_month.png)
+<img src="../static/ab/plots/occurrences_per_month.png" width=800/>
 
 In what looks like an attempt to compensate for the lost time, inspections skyrocketed the following year, with more than three-times more inspections taking place in 2022 than 2019! This is again easy to see in this calendar plot where you can even see the differences between days of the week (apparently, no inspections happen during the weekend!). 
 
@@ -67,7 +69,7 @@ That doesn't mean that you should fight your craving for butter-chicken and go f
 
 ![Boxplots](../static/ab/plots/boxplots.png)
 
-In the end, the purpose of this analysis is to give you the necessary insight to navigate through the city and find a place you can confidently dine in!  Let's say you are in New York, and you don't have unlimited time or money. You are hungry and you want to eat in a place that you can trust to be professional with its quality. We have the right tool for the job! Through the magic of data analysis, we have put together an interactive scattermap where you can look for those restaurants that received each type of grade, all over the city. This way you know which places to choose and which to avoid!
+In the end, the purpose of this analysis is to give you the necessary insight to navigate through the city and find a place you can confidently dine in!  Let's say you are in New York, and you don't have unlimited time or money. You are hungry and you want to eat in a place that you can trust to be professional with its quality. We have the right tool for the job! Through the magic of data analysis, we have put together an interactive scattermap where you can look for those restaurants that received each type of grade, all over the city. And, to make it even more fun, you can choose among the 8 different types of cuisine. This way you know which places to choose and which to avoid!
 
 <html>
 <head>
@@ -192,4 +194,10 @@ function openCity(evt, cityName) {
    
 </body>
 </html> 
+
+For the purpose of this article, we chose this year's 8 most popular cuisines for the maps. If you want to do the same for other types of restaurants, you can become a data analyst and make a map for any type of cuisine you prefer! But before you start looking for universities offering degrees in data science in awesome European cities, book a ticket to New York, go out and get your own opinion on the best places to eat. And if you are too far away, too busy or too afraid of planes, just get a pizza and put on your favorite show!
+
+<p align="center">
+  <img src="../static/ab/extra/joey_pizza.gif"/>
+</p>
 
