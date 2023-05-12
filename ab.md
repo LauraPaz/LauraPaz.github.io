@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: final_assignment
 title: About
 permalink: /ab/
 ---
